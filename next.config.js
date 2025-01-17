@@ -40,7 +40,7 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: ["lh3.googleusercontent.com", "res.cloudinary.com", "asset.cloudinary.com"]
+    domains: ["lh3.googleusercontent.com", "res.cloudinary.com", "asset.cloudinary.com", "drive.google.com"]
   },
   experimental: {
     serverComponentsExternalPackages: ["cloudinary", "graphql-request"],

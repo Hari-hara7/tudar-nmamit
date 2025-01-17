@@ -1,6 +1,7 @@
 import React from "react";
 import Team from "./Team";
 import Image from "next/image";
+import Teams from "./Teams";
 
 function Info() {
   return (
@@ -97,7 +98,7 @@ function Info() {
         </div>
       </section>
 
-      <Team />
+      <Teams />
     </div>
   );
 }
