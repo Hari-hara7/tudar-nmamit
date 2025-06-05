@@ -14,6 +14,7 @@ const NavLinks = [
   { href: "/website/Events", key: "Events", text: "Events" },
   { href: "/website/Blogs", key: "Blog", text: "Blog" },
   { href: "/website/ContactUs", key: "Contact", text: "Contact" },
+  { href: "/magazines", key: "Magazines", text: "Magazines" }, 
 ];
 
 const Navbar = () => {

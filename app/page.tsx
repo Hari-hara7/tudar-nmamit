@@ -8,7 +8,7 @@ import Blog from "./website/components/Carousel/Blog";
 import Video from "./website/components/Video-section/Video";
 import { useSession } from "next-auth/react";
 import FAQ from "./website/components/FAQ/FAQ";
-import RegisterPopup from "./register/registerPopup";
+
 
 export default function Home() {
   const { data: session, status } = useSession();
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       {/* TODO(Amrith) : comment the below line and rename register page to disable registration. */}
-      <RegisterPopup />
+
       <div className="bg-[#000] tulu-font">
         <Hero />
         <Club />
