@@ -19,10 +19,10 @@ export default function MagazinesPage() {
        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           
-          {/* Volume One */}
+          
           <Card className="bg-[#1a1a1a] border border-gray-700 shadow-xl hover:scale-105 transition-transform duration-300">
             <Image
-              src="/image.png" // replace with your actual /public/image.png
+              src="/image.png" 
               alt="Volume One Cover"
               width={400}
               height={250}
@@ -53,7 +53,7 @@ export default function MagazinesPage() {
          
           <Card className="bg-[#1a1a1a] border border-gray-700 shadow-xl hover:scale-105 transition-transform duration-300">
             <Image
-              src="/placeholder2.png" // replace with an actual cover if available
+              src="/placeholder2.png"
               alt="Volume Two Cover"
               width={400}
               height={250}
@@ -81,7 +81,7 @@ export default function MagazinesPage() {
          
           <Card className="bg-[#1a1a1a] border border-gray-700 shadow-xl hover:scale-105 transition-transform duration-300">
             <Image
-              src="/placeholder3.png" // replace with an actual cover if available
+              src="/placeholder3.png" 
               alt="Volume Three Cover"
               width={400}
               height={250}
